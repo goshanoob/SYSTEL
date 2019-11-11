@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene>
+<Inline DEF='МС' url='МС100.x3d'/>
+<IMPORT inlineDEF='МС' exportedDEF='тело1' AS='Тело_1'/>
+<IMPORT inlineDEF='МС' exportedDEF='тело2' AS='Тело_2'/>
+<IMPORT inlineDEF='МС' exportedDEF='тело3' AS='Тело_3'/>
+<Inline DEF='ПД' url='ИПД_МС100.x3d'/>
+<IMPORT inlineDEF='ПД' exportedDEF='Таймер' AS='таймер'/>
+<IMPORT inlineDEF='ПД' exportedDEF='Q1' AS='q1'/>
+<IMPORT inlineDEF='ПД' exportedDEF='Q2' AS='q2'/>
+<IMPORT inlineDEF='ПД' exportedDEF='Q3' AS='q3'/>
+<TouchSensor DEF='пуск' description="щелкни для запуска анимации"/>
+<ROUTE fromNode='пуск' fromField='touchTime' toNode='таймер' toField='set_startTime'/>
+<ROUTE fromNode='таймер' fromField='fraction_changed' toNode='q1' toField='set_fraction'/>
+<ROUTE fromNode='q1' fromField='value_changed' toNode='Тело_1' toField='set_rotation'/>
+<ROUTE fromNode='таймер' fromField='fraction_changed' toNode='q2' toField='set_fraction'/>
+<ROUTE fromNode='q2' fromField='value_changed' toNode='Тело_2' toField='set_translation'/>
+<ROUTE fromNode='таймер' fromField='fraction_changed' toNode='q3' toField='set_fraction'/>
+<ROUTE fromNode='q3' fromField='value_changed' toNode='Тело_3' toField='set_translation'/>
+ 
+</Scene> </X3D>

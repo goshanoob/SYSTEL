@@ -1,0 +1,14 @@
+﻿ <X3D version="3.2"  width="690px">
+  <Scene>
+   <Background skyColor="1 1 1"></Background><Viewpoint position="0 0 3"></Viewpoint>
+    <Transform id="тело_0" rotation="0 0 1 0" имяТела="тело_0"><Transform name="размерОсей" scale="0.1,0.1,0.1"><Inline url="../scripts/АСК.x3d"></Inline></Transform>
+     <Group> 
+	  <Transform translation="0,0,0" rotation="0 0 1 0" >
+	   <Shape><Box size="0.2,0.2,0.2"></Box>
+	    <Appearance><Material diffuseColor="0.7 0.7 0.7" transparency="0.7"></Material></Appearance>
+	   </Shape>
+	  </Transform>
+	 </Group>
+    </Transform>
+  </Scene>
+ </X3D>

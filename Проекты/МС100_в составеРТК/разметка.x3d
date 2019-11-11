@@ -1,0 +1,349 @@
+﻿<!--?xml version="1.0" encoding="UTF-8"?-->
+<x3d version="3.2" width="841px" height="505px"> <scene render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" pickmode="idBuf" dopickpass="true"> <background skyColor="1 1 1" groundcolor="" groundangle="" skyangle="" backurl="" bottomurl="" fronturl="" lefturl="" righturl="" topurl=""></background>  
+ <viewpoint position="0 0 4" fieldofview="0.785398" orientation="0,0,0,0" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+ <transform id="тело_0" translation="0 0 0" rotation="0 1 0 -3.14" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+ 
+ 
+ 
+ 
+  <transform translation="0.25, 0, 0" rotation="0 1 0 3.14" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <transform translation="0.18, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.4 0.01 0.3" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"> </material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.33, -0.015, -0.16" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.33, -0.015, 0.16" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform translation="0, -0.03, 0" rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.02" height="0.055" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.05, -0.045, -0.01" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.1 0.01 0.01" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.05, -0.045, 0.01" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.1, 0.01, 0.01" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.075, -0.045, 0" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.03" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+</transform></transform>
+ 
+ 
+ 
+ 
+ <transform translation="0.4, -0.085, 0.4" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+ 
+ 
+ 
+<Group DEF='board'>
+      <Transform DEF='X_Plane' scale="0.5 0.5 0.5">
+        <Group DEF='Row1'>
+          <Transform>
+            <Shape DEF='GreenSquare'>
+              <Box size='1 0.01 1'/>
+              <Appearance>
+                <Material diffuseColor='.25 1 .25' transparency='.125'></Material>
+              </Appearance>
+            </Shape>
+          </Transform>
+          <Transform translation='1 0 0'>
+            <Shape DEF='BlueSquare'>
+              <Box size='1 0.01 1'></Box>
+              <Appearance>
+                <Material diffuseColor='.25 .25 1' transparency='.125'></Material>
+              </Appearance>
+            </Shape>
+          </Transform>
+          <Transform translation='2 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+          <Transform translation='3 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+          <Transform translation='-1 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+          <Transform translation='-2 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+          <Transform translation='-3 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+          <Transform translation='-4 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+        </Group>
+        <Transform translation='0 0 -1'>
+          <Group DEF='Row2'>
+            <Transform>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='1 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='2 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='3 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='-1 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='-2 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='-3 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='-4 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+          </Group>
+        </Transform>
+        <Transform translation='0 0 -2'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 -3'>
+          <Group USE='Row2'></Group>
+        </Transform>
+        <Transform translation='0 0 -4'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 1'>
+          <Group USE='Row2'></Group>
+        </Transform>
+        <Transform translation='0 0 2'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 3'>
+          <Group USE='Row2'></Group>
+        </Transform>
+      </Transform>
+      
+      
+  
+    </Group>
+  
+  
+  
+  
+ </transform> 
+ 
+ 
+ 
+ 
+ 
+ <transform translation="0.15, 0.045, 0.4" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.6 0.01 0.4" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"> </material></appearance> 
+  </shape>
+  <transform translation="0.275, -0.065, -0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.275, -0.065, 0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="-0.275, -0.065, 0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="-0.275, -0.065, -0.125" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ </transform> 
+ 
+ 
+ 
+   <transform translation="0, 0.05, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.1" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0.185, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.03" height="0.25" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform id="тело_1" translation="0, 0.35, 0" rotation="0 1 0 -1.571" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ВКП" оськп="0,1,0" минимальное_q="-90" максимальное_q="90">
+    <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.12 0.08 0.08" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+
+   <transform id="тело_2" translation="0.32499999999999996,0,0" rotation="1 0 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ПКП" оськп="1,0,0" начальноеположение="0.35, 0, 0" нулевое_q="-0.2" минимальное_q="0" максимальное_q="0.35">
+     <transform translation="-0.2, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.4 0.04 0.04" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.06 0.1 0.06" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	<transform id="тело_3" translation="0,-0.18,0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ПКП" оськп="0,-1,0" начальноеположение="0, -0.1, 0" нулевое_q="0" минимальное_q="0" максимальное_q="0.3">
+      <transform translation="0, 0.19, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.03 0.3 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ 
+ <transform translation="0, 0.04, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.1 0.03 0.075" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.01, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.012 0.08 0.07" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	 <transform translation="0.12, -0.15, 0" rotation="0 1 0 -1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+      
+	  
+	  
+	   <transform translation="0, 0, 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <transform translation="0, 0, 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.15 0.02 0.2" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ 
+ <transform translation="0.065, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="0, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ 
+ <transform translation="0, 0.1425, 0.12" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.15 0.015 0.015" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.1425, 0.0925" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.015 0.015 0.045" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.065, 0.1425, 0.0925" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.015 0.015 0.045" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform translation="-0.0325, 0.035, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="-0.0325, 0.085, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="-0.0325, 0.135, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.035, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.085, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.135, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+</transform>
+	  
+	  
+	  
+	  
+	  
+	  
+     </transform>
+	 <transform id="тело_4" translation="-0.06,0,0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ПКП" оськп="1,0,0" начальноеположение="-0.12, 0, 0" нулевое_q="0" минимальное_q="0" максимальное_q="0.07">
+       <transform translation="0.07, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.012 0.08 0.07" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffuseColor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	 </transform>
+</transform></transform></transform></transform>
+
+
+</scene></x3d>

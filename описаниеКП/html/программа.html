@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html><html lang="ru"><head>
+<script src="../scripts/моделирование.js"></script>
+<script src="../scripts/меню.js"></script>
+<script src="../scripts/чтениеФайла.js"></script>
+<script src="../scripts/записьФайла.js"></script>
+<script src="../scripts/записьТел.js"></script>
+<script src="../scripts/описаниеКП.js"></script>
+<script src="../scripts/демонстрация.js"></script>
+<script src="../scripts/x3dom-full.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/стиль.css" />
+</head><body>
+<input id="открытьФайл" type="file" nwworkingdir=".\Проекты"/>
+<input id="сохранитьФайл" type="file" nwsaveas='разметка.x3d'/>
+<input id="сохранитьПроект" type="file" nwdirectory/>
+<input id="сохранитьПример" type="file" nwsaveas=".\Примеры"/>
+<div id="экран" class="рамка"></div><div id="менюРедактирования">
+
+
+<div id="описаниеКП" class="меню">
+ <div id="КП">
+ </div>
+ <input id="описаниеКПок" type="button" value="OK"/>
+</div>
+<div id="положения" class="скрытоеМеню меню">
+ <div id="описаниеПоложений">
+  
+ </div>
+ <span id="предупреждениеПоложений" class="открытоеМеню">Внимание! Заполнены не все параметры.</span>
+</div>
+
+
+<div id="предупрежедниеНК" class="скрытоеМеню меню">Ошибка! НК в <span id="ошибкаВСтрокеКП"></span>-й строке не удовлетворяют условию q<sub>x</sub><sup>2</sup>+q<sub>y</sub><sup>2</sup>+q<sub>z</sub><sup>2</sup>=1</div>
+
+<div id="режимДемонстрации" class="скрытоеМеню меню"></div>
+
+</div>
+
+<div id="настройкиКамеры" class="скрытоеМеню меню">
+ <label class="подраздел">Положение наблюдателя относительно АСК по оси Z:</label>
+ <input id="положениеКамеры" type="range" min="0" max="10" step="0.1" class="ползунок"/>
+</div>
+
+<div id="настройкиОсей" class="скрытоеМеню меню">
+ <label class="подраздел">Размер осей ССК тел:</label>
+ <input id="размерОсей" type="range" min="0" max="2" step="0.1" value="1" class="ползунок"/>
+ <input id="длинаОсей" class="параметр" type="number" min='0' step="0.1" value="0.1"/>
+</div>
+
+
+
+
+</body>
+</html>

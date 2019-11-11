@@ -1,0 +1,76 @@
+﻿/*body { margin: 0;}*/
+
+input {margin-top: 6px; margin-left: 3px;}
+
+output[id^="значение_q"]:after {content: ''; display: block;}
+input[id^="осьX_"] {width: 80%; }
+input[id^="осьY_"] {width: 80%;}
+input[id^="осьZ_"] {width: 80%;}
+input[id^="максимальное_p"] {width: 60%;}
+input[id^="максимальное_q"] {width: 60%;}
+input[id^="минимальное_p"] {width: 60%;}
+input[id^="минимальное_q"] {width: 60%;}
+input[id^="нулевое_p"] {width: 60%;}
+input[id^="нулевое_q"] {width: 60%;}
+input[id^="красныйЦвет_"] {width: 40px;}
+input[id^="синийЦвет_"] {width: 40px;}
+input[id^="зелёныйЦвет_"] {width: 40px;}
+
+.окно{display: inline-block;}
+.рамка{outline: 1px solid #000;}
+.параметр{width:50px}
+.раздел{margin:5px; margin-left:15px; font: bold 100% serif;}
+.подраздел{margin:5px; font-size: 11pt; font: italic 100% serif;}
+.ячейкаМеню{vertical-align:top; /*width: 500px*/}
+.скрытоеМеню{display:none; margin:10px}
+.открытоеМеню{display:block; margin:10px}
+.ползунок{width:200px;}
+.ползунок_демо{width:80%;}
+.подписьТела{display: block; text-align: center; margin-top:5px; }
+.подписьТелаПоложения{display: block; text-align: center; margin-top:5px;}
+.изменениеЦвета{display: inline-block;  width:55%;}
+.подписьКопии{margin-left: 16px;}
+
+.блок{display: inline-block; width:25%; text-align: center;}
+.блокТреть{display: inline-block; width:33%; text-align: center;}
+.блокПоловина{display: inline-block; width:50%; text-align: center;}
+
+.скрытаяСтрока{display: none;}
+.открытаяСтрока{display: visible ;}
+.последняяСтрока{display: visible ; background: #FFEEBD;}
+
+#открытьФайл,#сохранитьФайл,#сохранитьПроект,#сохранитьПример,#внешняяМодель{display:none}
+#изменениеПараметровССК{margin:10px}
+#изменениеПараметровГО{margin:10px}
+#повороты{float: left;}
+#вращениеССК{height:100%}
+#названиеМС{width:150px; text-align:left;}
+#описаниеМС{width:350px; height:150px; text-align:left;}
+#экран{/*vertical-align:top;*/ height:520px; width:65%; display: inline-block; margin-left:0px;}
+#менюРедактирования{width:35%; vertical-align:top; display: inline-block;}
+#информация{ width: 100%; position: fixed; bottom: 1px; padding: 3px; background: white; }
+#сообщенияГО,#сообщенияССК{margin:10px}
+#имяТела{width:90%}
+#ТПМС{/*overflow: scroll; height: 80px;*/ padding-bottom:20px; display: inline-block; }
+/*#таблВверх{float:right;}
+#таблВниз{float:right;}*/
+#кнопкиТаблицы{display: inline-block; width:35%;vertical-align:top;}
+#ТП{display: inline-block; width:60%;}
+
+#модельВставка{display: none;}
+
+table{width: 100%; border: 1px double black; border-collapse: collapse;}
+th {text-align: center; padding: 1px; border: 1px solid black;}
+td {padding: 1px; border: 1px solid black; text-align: center;}
+input[name="номерБазыКопии"]{width:50%; text-align: center;}
+input[name="базаТабл"]{width:50%; text-align: center;}
+input[name="типКПтабл"]{width:50%; text-align: center;}
+input[name="переносXтабл"]{width:30%; text-align: center;}
+input[name="переносYтабл"]{width:30%; text-align: center;}
+input[name="переносZтабл"]{width:30%; text-align: center;}
+input[name="осьXтабл"]{width:30%; text-align: center;}
+input[name="осьYтабл"]{width:30%; text-align: center;}
+input[name="осьZтабл"]{width:30%; text-align: center;}
+input[name="перемещениеТабл"]{width:70%; text-align: center;}
+ 
+ 

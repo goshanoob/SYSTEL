@@ -1,0 +1,480 @@
+<!DOCTYPE html><html lang="ru"><head>
+<script src="../../scripts/моделирование.js"></script>
+<script src="../../scripts/меню.js"></script>
+<script src="../../scripts/чтение”айла.js"></script>
+<script src="../../scripts/запись”айла.js"></script>
+<script src="../../scripts/запись’ел.js"></script>
+<script src="../../scripts/клавиши.js"></script>
+<script src="../../scripts/описаниеЉЏ.js"></script>
+<script src="../../scripts/демонстрациЯ.js"></script>
+<script src="../../scripts/генерациЯ’Џ.js"></script>
+<script src="../../scripts/табличноеЋписание.js"></script>
+<script src="../../scripts/x3dom-full.js"></script>
+<link rel="stylesheet" type="text/css" href="../../css/стиль.css" />
+</head><body>
+
+<div id="экран" class="рамка"><div id="модель">?<!--?xml version="1.0" encoding="UTF-8"?-->
+<x3d version="3.2" width="841px" height="505px"> <scene render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" pickmode="idBuf" dopickpass="true"> <background skycolor="1 1 1" groundcolor="" groundangle="" skyangle="" backurl="" bottomurl="" fronturl="" lefturl="" righturl="" topurl=""></background>  
+ <viewpoint position="0 0 4" fieldofview="0.785398" orientation="0,0,0,0" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+ <transform id="тело_0" translation="0 0 0" rotation="0 1 0 -3.14" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+ 
+ 
+ 
+ 
+  <transform translation="0.25, 0, 0" rotation="0 1 0 3.14" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <transform translation="0.18, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.4 0.01 0.3" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"> </material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.33, -0.015, -0.16" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.33, -0.015, 0.16" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform translation="0, -0.03, 0" rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.02" height="0.055" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.05, -0.045, -0.01" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.1 0.01 0.01" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.05, -0.045, 0.01" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.1, 0.01, 0.01" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.075, -0.045, 0" rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.03" height="0.02" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+</transform></transform>
+ 
+ 
+ 
+ 
+ <transform translation="0.4, -0.085, 0.4" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="4 0.01 4" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.6 1 1" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"> </material></appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.15, 0.045, 0.4" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.6 0.01 0.4" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"> </material></appearance> 
+  </shape>
+  <transform translation="0.275, -0.065, -0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.275, -0.065, 0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="-0.275, -0.065, 0.175" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="-0.275, -0.065, -0.125" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.05 0.13 0.05" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ </transform> 
+ 
+ 
+ 
+   <transform translation="0, 0.05, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.06" height="0.1" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0.25, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.03" height="0.4" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform id="тело_1" translation="0, 0.5, 0" rotation="0 1 0 -1.571" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="‚ЉЏ" оськп="0,1,0" минимальное_q="-90" максимальное_q="90">
+    <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.2 0.1 0.1" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+
+   <transform id="тело_2" translation="0.32499999999999996,0,0" rotation="1 0 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ЏЉЏ" оськп="1,0,0" начальноеположение="0.35, 0, 0" нулевое_q="-0.2" минимальное_q="0" максимальное_q="0.35">
+     <transform translation="-0.2, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.4 0.04 0.04" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.07 0.14 0.07" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	<transform id="тело_3" translation="0,-0.19,0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ЏЉЏ" оськп="0,-1,0" начальноеположение="0, -0.1, 0" нулевое_q="0" минимальное_q="0" максимальное_q="0.3">
+      <transform translation="0, 0.19, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.03 0.3 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ 
+ <transform translation="0, 0.04, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.16 0.05 0.15" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.07, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.012 0.08 0.15" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	 <transform translation="0.06, -0.15, 0" rotation="0 1 0 -1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+      
+	  
+	  
+	   <transform translation="0, 0, 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <transform translation="0, 0, 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.15 0.02 0.2" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ 
+ <transform translation="0.065, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ <transform translation="0, 0.075, -0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0, 0.075, 0.085" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.02 0.15 0.03" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform>
+ 
+ <transform translation="0, 0.1425, 0.12" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.15 0.015 0.015" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="-0.065, 0.1425, 0.0925" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.015 0.015 0.045" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+ <transform translation="0.065, 0.1425, 0.0925" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.015 0.015 0.045" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 1 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  <transform translation="-0.0325, 0.035, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="-0.0325, 0.085, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="-0.0325, 0.135, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.035, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.085, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+  <transform translation="0.0325, 0.135, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <transform rotation="1 0 0 1.57" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <cylinder radius="0.025" height="0.15" solid="true" ccw="true" usegeocache="true" lit="true" bottom="true" top="true" subdivision="32" side="true"></cylinder>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="1 0 0" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+  </transform>
+</transform>
+	  
+	  
+	  
+	  
+	  
+	  
+     </transform>
+	 <transform id="тело_4" translation="-0.12,0,0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" видкп="ЏЉЏ" оськп="1,0,0" начальноеположение="-0.12, 0, 0" нулевое_q="0" минимальное_q="0" максимальное_q="0.07">
+       <transform translation="0.07, 0, 0" rotation="0 1 0 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+  <shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"> <box size="0.012 0.08 0.15" solid="true" ccw="true" usegeocache="true" lit="true"></box>
+   <appearance sorttype="auto" alphaclipthreshold="0.1"> <material diffusecolor="0.7 0.5 0.5" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material> </appearance> 
+  </shape>
+ </transform> 
+	 </transform>
+</transform></transform></transform></transform>
+
+
+</scene><canvas class="x3dom-canvas" id="x3dom-1475214760057-canvas" width="841" height="505" tabindex="0" style="width: 841px; height: 505px;"></canvas><div id="x3dom-state-viewer" style="display: none;"><div class="x3dom-states-rendermode-hardware">Hardware-Rendering</div><ul class="x3dom-states-list"><li class="x3dom-states-item"><div class="x3dom-states-item-title">FPS</div><div class="x3dom-states-item-value">0.04</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">ANIM</div><div class="x3dom-states-item-value">0.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">TRAVERSE</div><div class="x3dom-states-item-value">0.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">SORT</div><div class="x3dom-states-item-value">0.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">RENDER</div><div class="x3dom-states-item-value">3.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">DRAW</div><div class="x3dom-states-item-value">0.08</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">PICKING</div><div class="x3dom-states-item-value">5.00</div></li></ul><ul class="x3dom-states-list"><li class="x3dom-states-item"><div class="x3dom-states-item-title">#NODES:</div><div class="x3dom-states-item-value">94</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#SHAPES:</div><div class="x3dom-states-item-value">39</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#DRAWS:</div><div class="x3dom-states-item-value">39</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#POINTS:</div><div class="x3dom-states-item-value">2,208</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#TRIS:</div><div class="x3dom-states-item-value">1,812</div></li></ul></div><div class="x3dom-progress" style="display: none;"><strong>Loading: 0</strong><span style="width: 25%;"> </span></div></x3d>
+</div></div><div id="менюђедактированиЯ">
+<div id="режимђедактированиЯ" class="скрытоеЊеню">
+<label class="раздел">ђедактирование ‘‘Љ</label>
+<div>
+ <input type="button" id="вставить‘‘Љ" value="‚ставить ‘‘Љ в ‘‘ЉЃ"><br>
+ <label class="подраздел">Љоординаты начала ‘‘Љ в ‘‘ЉЃ:</label><br>
+ <label>X: </label><input id="координата‚ставки‘‘ЉX" class="параметр" type="number" value="0.2" step="0.1">
+ <label> Y: </label><input id="координата‚ставки‘‘ЉY" class="параметр" type="number" value="0.2" step="0.1">
+ <label> Z: </label><input id="координата‚ставки‘‘ЉZ" class="параметр" type="number" value="0" step="0.1"><br>
+ <input type="button" id="копировать“зел" value="Љопировать ‘‘Љ">
+ <input type="button" id="вставить“зел" value="‚ставить ‘‘Љ"><span id="копиЯ" class="подписьЉопии"></span><br>
+ <input type="button" id="удалить‘‘Љ" value="“далить ‘‘Љ"><br>
+ <input type="button" id="переместить‘‘Љ" value="Џереместить ‘‘Љ относительно ‘‘ЉЃ"><br>
+ <input id="имЯ’ела" value="тело_0">
+ <br>
+</div>
+<div id="сообщениЯ‘‘Љ"></div>
+<div id="перемещение‘‘Љ" class="меню скрытоеЊеню">
+ <div>
+  <label class="подраздел">Џеремещение ‘‘Љ тела по оси X:</label>
+  <input id="перемещение‘‘ЉпоX" class="параметр" type="number" step="0.01" title="вещественное число, напр. 3,2">
+  <input id="перемещение‘‘ЉвлевоЏоX" type="button" value="?">
+  <input id="перемещение‘‘ЉвправоЏоX" type="button" value="?">
+ </div>
+ <div>
+  <label class="подраздел">Џеремещение ‘‘Љ тела по оси Y:</label>
+  <input id="перемещение‘‘ЉпоY" class="параметр" type="number" step="0.01" title="вещественное число, напр. 2,12">
+  <input id="перемещение‘‘ЉвнизЏоY" type="button" value="?">
+  <input id="перемещение‘‘ЉвверхЏоY" type="button" value="?">
+ </div>
+ <div>
+  <label class="подраздел">Џеремещение ‘‘Љ тела по оси Z:</label>
+  <input id="перемещение‘‘ЉпоZ" class="параметр" type="number" step="0.01" title="вещественное число, напр. -0,2">
+  <input id="перемещение‘‘ЉназадЏоZ" type="button" value="?">
+  <input id="перемещение‘‘ЉвперЮдЏоZ" type="button" value="Ґ">
+ </div>
+ <div>
+  <label class="подраздел">Џоворот ‘‘Љ тела вокруг оси X:</label>
+  <input id="вращение‘‘ЉЏоX" type="checkbox"><br>
+  <label class="подраздел">Џоворот ‘‘Љ тела вокруг оси Y:</label>
+  <input id="вращение‘‘ЉЏоY" type="checkbox">
+  <input id="вращение‘‘Љ" class="параметр" type="number" step="5">
+  <input id="вращение‘‘Љвлево" type="button" value="?">
+  <input id="вращение‘‘Љвправо" type="button" value="?"><br>
+  <label class="подраздел">Џоворот ‘‘Љ тела вокруг оси Z:</label>
+  <input id="вращение‘‘ЉЏоZ" type="checkbox"><br>
+ </div>
+</div>
+<div id="удаление‘‘Љ" class="меню скрытоеЊеню">
+ <label class="подраздел">“далить выбранную ‘‘Љ вместе с несомыми телами?</label><br>
+ <input id="удалить‘‘Љок" type="button" value="OK">
+ <input id="удалить‘‘Љотмена" type="button" value="Ћтмена">
+</div>
+<label class="раздел">ђедактирование ѓЋ</label>
+ <select id="списокѓЋ">
+  <option>Ѓокс</option>
+  <option>–илиндр</option>
+  <option>Љонус</option>
+  <option>ар</option>
+ </select>
+<div>
+ <input type="button" id="создатьѓЋ" value="‚ставить ѓЋ в ‘‘Љ"><br>
+ <label class="подраздел">Љоординаты центра ѓЋ в ‘‘Љ:</label><br>
+ <label>X: </label><input id="координата‚ставкиѓЋX" class="параметр" type="number" value="0.2" step="0.1">
+ <label> Y: </label><input id="координата‚ставкиѓЋY" class="параметр" type="number" value="0.2" step="0.1">
+ <label> Z: </label><input id="координата‚ставкиѓЋZ" class="параметр" type="number" value="0" step="0.1"><br>
+ <input type="button" id="копироватьЋбъект" value="Љопировать ѓЋ">
+ <input type="button" id="вставитьЋбъект" value="‚ставить ѓЋ"><span id="копиЯѓЋ" class="подписьЉопии"></span><br>
+ <input type="button" id="удалитьѓЋ" value="“далить ѓЋ"><br>
+ <input type="button" id="изменитьѓЋ" value="€зменить параметры ѓЋ"><br>
+ <input type="button" id="переместитьѓЋ" value="Џереместить ѓЋ относительно ‘‘Љ"><br>
+</div>
+<div id="сообщениЯѓЋ"></div>
+<div id="изменениеЃокса" class="меню скрытоеЊеню">
+ <label class="подраздел">„лина бокса:</label>
+ <input id="длинаЃокса" class="параметр" type="number" step="0.01" min="0"> 
+ <input id="ползунок„линыЃокса" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br>
+ <label class="подраздел">‚ысота бокса:</label>
+ <input id="высотаЃокса" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунок‚ысотыЃокса" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br>
+ <label class="подраздел">ирина бокса:</label>
+ <input id="ширинаЃокса" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунокириныЃокса" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br>
+</div>
+<div id="изменение–илиндра" class="меню скрытоеЊеню">
+ <label class="подраздел">ђадиус цилиндра:</label>
+ <input id="радиус–илиндра" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунокђадиуса–илиндра" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br>
+ <label class="подраздел">‚ысота цилиндра:</label>
+ <input id="высота–илиндра" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунок‚ысоты–илиндра" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br><br>
+ <label class="подраздел">‘жатие и растЯжение цилиндра:</label><br>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатие–илиндраЏоX" class="параметр" type="number" step="0.01" min="0">
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатие–илиндраЏоZ" class="параметр" type="number" step="0.01" min="0">
+</div>
+
+<div id="изменениеЉонуса" class="меню скрытоеЊеню">
+ <label class="подраздел">ђадиус конуса:</label>
+ <input id="радиусЉонуса" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунокђадиусаЉонуса" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br>
+ <label class="подраздел">‚ысота конуса:</label>
+ <input id="высотаЉонуса" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунок‚ысотыЉонуса" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br><br>
+ <label class="подраздел">‘жатие и растЯжение конуса:</label><br>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатиеЉонусаЏоX" class="параметр" type="number" step="0.01" min="0">
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатиеЉонусаЏоZ" class="параметр" type="number" step="0.01" min="0">
+</div>
+
+<div id="изменениеара" class="меню скрытоеЊеню">
+ <label class="подраздел">ђадиус шара:</label>
+ <input id="радиусара" class="параметр" type="number" step="0.01" min="0">
+ <input id="ползунокђадиусаара" type="range" min="0" max="1" step="0.1" class="ползунокѓЋ"><br><br>
+ <label class="подраздел">‘жатие и растЯжение шара:</label><br>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатиеараЏоX" class="параметр" type="number" step="0.01" min="0">
+ <label class="подраздел">по оси Y:</label>
+ <input id="сжатиеараЏоY" class="параметр" type="number" step="0.01" min="0">
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатиеараЏоZ" class="параметр" type="number" step="0.01" min="0">
+</div>
+
+<div id="удалениеѓЋ" class="меню скрытоеЊеню">
+ <label class="подраздел">“далить выбранный ѓЋ?</label>
+ <input id="удалитьѓЋок" type="button" value="OK">
+ <input id="удалитьѓЋотмена" type="button" value="Ћтмена">
+</div>
+
+<div id="перемещениеѓЋ" class="меню скрытоеЊеню">
+ <div>
+  <label class="подраздел">Џеремещение ѓЋ по оси X:</label>
+  <input id="перемещениеѓЋпоX" class="параметр" type="number" step="0.01">
+  <input id="перемещениеѓЋвлево" type="button" value="?">
+  <input id="перемещениеѓЋвправо" type="button" value="?">
+ </div>
+ <div>
+  <label class="подраздел">Џеремещение ѓЋ по оси Y:</label>
+  <input id="перемещениеѓЋпоY" class="параметр" type="number" step="0.01">
+  <input id="перемещениеѓЋвниз" type="button" value="?">
+  <input id="перемещениеѓЋвверх" type="button" value="?">
+ </div>
+ <div>
+  <label class="подраздел">Џеремещение ѓЋ по оси Z:</label>
+  <input id="перемещениеѓЋпоZ" class="параметр" type="number" step="0.01">
+  <input id="перемещениеѓЋназад" type="button" value="?">
+  <input id="перемещениеѓЋвперЮд" type="button" value="Ґ">
+ </div>
+ <div>
+  <label class="подраздел">Џоворот ѓЋ вокруг оси X:</label>
+  <input id="вращениеѓЋЏоX" type="checkbox"><br>
+  <label class="подраздел">Џоворот ѓЋ вокруг оси Y:</label>
+  <input id="вращениеѓЋЏоY" type="checkbox">
+  <input id="вращениеѓЋ" class="параметр" type="number" step="5">
+  <input id="вращениеѓЋвлево" type="button" value="?">
+  <input id="вращениеѓЋвправо" type="button" value="?"><br>
+  <label class="подраздел">Џоворот ѓЋ вокруг оси Z:</label>
+  <input id="вращениеѓЋЏоZ" type="checkbox"><br>
+ </div>
+</div>
+
+<div id="описаниеЊодели" class="меню скрытоеЊеню">
+ <label class="подраздел">Ќазвание Њ‘:</label>
+ <input id="названиеЊ‘" placeholder="Ќазвание"><br>
+ <label class="подраздел">Ћписание Њ‘:</label>
+ <textarea id="описаниеЊ‘" placeholder="Ћписание"></textarea><br>
+ <input id="описаниеЊ‘ок" type="button" value="OK">
+ <input id="описаниеЊ‘отмена" type="button" value="Ћтмена">
+</div>
+</div>
+
+<div id="описаниеЉЏ" class="меню скрытоеЊеню">
+ <div id="ЉЏ"><label class="подпись’ела">undefined</label><div></div><div class="блок">’ип ЉЏ</div><div class="блок">q<sub>x</sub></div><div class="блок">q<sub>y</sub></div><div class="блок">q<sub>z</sub></div><div class="блок"><select id="видЉЏ_1"><option>‚ЉЏ</option><option>ЏЉЏ</option></select></div><div class="блок"><input id="осьX_1" type="number"></div><div class="блок"><input id="осьY_1" type="number"></div><div class="блок"><input id="осьZ_1" type="number"></div><label class="подпись’ела">undefined</label><div></div><div class="блок">’ип ЉЏ</div><div class="блок">q<sub>x</sub></div><div class="блок">q<sub>y</sub></div><div class="блок">q<sub>z</sub></div><div class="блок"><select id="видЉЏ_2"><option>‚ЉЏ</option><option>ЏЉЏ</option></select></div><div class="блок"><input id="осьX_2" type="number"></div><div class="блок"><input id="осьY_2" type="number"></div><div class="блок"><input id="осьZ_2" type="number"></div><label class="подпись’ела">undefined</label><div></div><div class="блок">’ип ЉЏ</div><div class="блок">q<sub>x</sub></div><div class="блок">q<sub>y</sub></div><div class="блок">q<sub>z</sub></div><div class="блок"><select id="видЉЏ_3"><option>‚ЉЏ</option><option>ЏЉЏ</option></select></div><div class="блок"><input id="осьX_3" type="number"></div><div class="блок"><input id="осьY_3" type="number"></div><div class="блок"><input id="осьZ_3" type="number"></div><label class="подпись’ела">undefined</label><div></div><div class="блок">’ип ЉЏ</div><div class="блок">q<sub>x</sub></div><div class="блок">q<sub>y</sub></div><div class="блок">q<sub>z</sub></div><div class="блок"><select id="видЉЏ_4"><option>‚ЉЏ</option><option>ЏЉЏ</option></select></div><div class="блок"><input id="осьX_4" type="number"></div><div class="блок"><input id="осьY_4" type="number"></div><div class="блок"><input id="осьZ_4" type="number"></div></div>
+ <input id="описаниеЉЏок" type="button" value="OK">
+ <input id="описаниеЉЏотмена" type="button" value="Ћтмена">
+</div>
+<div id="положениЯ" class="меню скрытоеЊеню">
+ <div id="описаниеЏоложений"><label class="подпись’елаЏоложениЯ">undefined</label><div class="блокЏоловина">q<sub>min</sub><input type="button" id="мин_q1" value="OK" name="нажималась"></div><div class="блокЏоловина">q<sub>max</sub><input type="button" id="макс_q1" value="OK" name="нажималась"></div><div class="блокЏоловина"><input type="number" id="минимальное_q1" step="5"></div><div class="блокЏоловина"><input type="number" id="максимальное_q1" step="5"></div><label class="подпись’елаЏоложениЯ">undefined</label><div class="блок’реть">q=0<input type="button" id="нул_q2" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>min</sub><input type="button" id="мин_q2" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>max</sub><input type="button" id="макс_q2" value="OK" name="нажималась"></div><div class="блок’реть"><input id="нулевое_q2" type="number" step="0.01"></div><div class="блок’реть"><input type="number" id="минимальное_q2" step="0.01"></div><div class="блок’реть"><input type="number" id="максимальное_q2" step="0.01"></div><label class="подпись’елаЏоложениЯ">undefined</label><div class="блок’реть">q=0<input type="button" id="нул_q3" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>min</sub><input type="button" id="мин_q3" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>max</sub><input type="button" id="макс_q3" value="OK" name="нажималась"></div><div class="блок’реть"><input id="нулевое_q3" type="number" step="0.01"></div><div class="блок’реть"><input type="number" id="минимальное_q3" step="0.01"></div><div class="блок’реть"><input type="number" id="максимальное_q3" step="0.01"></div><label class="подпись’елаЏоложениЯ">undefined</label><div class="блок’реть">q=0<input type="button" id="нул_q4" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>min</sub><input type="button" id="мин_q4" value="OK" name="нажималась"></div><div class="блок’реть">q<sub>max</sub><input type="button" id="макс_q4" value="OK" name="нажималась"></div><div class="блок’реть"><input id="нулевое_q4" type="number" step="0.01"></div><div class="блок’реть"><input type="number" id="минимальное_q4" step="0.01"></div><div class="блок’реть"><input type="number" id="максимальное_q4" step="0.01"></div></div>
+ <span id="предупреждениеЏоложений" class="скрытоеЊеню">‚нимание! ‡аполнены не все параметры.</span>
+</div>
+
+<div id="режим„емонстрации" class="меню открытоеЊеню"><label>q1: </label><input type="range" class="ползунок_демо" min="-90" max="90" step="18" id="q1"><output id="значение_q1">-90</output><label>q2: </label><input type="range" class="ползунок_демо" min="0" max="0.35" step="0.035" id="q2"><output id="значение_q2">0.175</output><label>q3: </label><input type="range" class="ползунок_демо" min="0" max="0.3" step="0.03" id="q3"><output id="значение_q3">0.09</output><label>q4: </label><input type="range" class="ползунок_демо" min="0" max="0.07" step="0.007" id="q4"><output id="значение_q4">0</output></div>
+
+<div id="предупрежедниеЌЉ" class="меню скрытоеЊеню">Ћшибка! ЌЉ в <span id="ошибка‚‘трокеЉЏ"></span>-й строке не удовлетворЯют условию q<sub>x</sub><sup>2</sup>+q<sub>y</sub><sup>2</sup>+q<sub>z</sub><sup>2</sup>=1</div>
+
+<div id="настройкиЉамеры" class="меню скрытоеЊеню">
+ <label class="подраздел">Џоложение наблюдателЯ относительно Ђ‘Љ по оси Z:</label>
+ <input id="положениеЉамеры" type="range" min="0" max="10" step="0.1" class="ползунок">
+</div>
+
+<div id="настройкиЋсей" class="меню скрытоеЊеню">
+ <label class="подраздел">ђазмер осей ‘‘Љ тел:</label>
+ <input id="размерЋсей" type="range" min="0" max="2" step="0.1" value="1" class="ползунок">
+ <input id="длинаЋсей" class="параметр" type="number" min="0" step="0.1" value="0.1">
+</div>
+
+<div id="макс‹инђазмер" class="меню скрытоеЊеню">
+ <label class="подраздел">Њаксимальный линейный размер:</label><br>
+ <input id="линейныйђазмер" min="0" step="0.1" type="number" class="параметр" value="1"><br>
+ <input id="линђазмерЋк" type="button" value="OK">
+ <input id="линђазмерЋтмена" type="button" value="Ћтмена">
+</div>
+
+<div id="точностьЋкруглениЯ" class="меню скрытоеЊеню">
+ <label class="подраздел">’очность представлениЯ линейных параметров (кол-во знаков после запЯтой):</label><br>
+ <input id="количество‡наков" value="2" min="0" step="1" type="number" class="параметр"><br>
+ <input id="точностьЋк" type="button" value="OK">
+ <input id="точностьЋтмена" type="button" value="Ћтмена">
+</div>
+</div>
+</body>
+</html>

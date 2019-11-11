@@ -1,0 +1,8 @@
+﻿ <x3d version="3.2" height="500px" width="900px">
+  <scene render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" pickmode="idBuf" dopickpass="true">
+   <background skyColor="1 1 1" groundcolor="" groundangle="" skyangle="" backurl="" bottomurl="" fronturl="" lefturl="" righturl="" topurl=""></background><viewpoint position="0 0 3" fieldofview="0.785398" orientation="0,0,0,0" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+    <transform id="тело_0" rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" def="тело_0"><transform name="размерОсей" scale="0.6,0.6,0.6" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scaleorientation="0,0,0,0"><inline url="../scripts/XYZ.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline></transform>
+     <group render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1"> <transform rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"><box solid="true" ccw="true" usegeocache="true" lit="true" size="0.6,0.01,0.6"></box><appearance sorttype="auto" alphaclipthreshold="0.1"><material ambientintensity="0.2" diffuseColor="0 0 1" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0" transparency="0"></material></appearance></shape></transform></group>
+    </transform>
+  </scene>
+ </x3d>

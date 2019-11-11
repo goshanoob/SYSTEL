@@ -1,0 +1,17 @@
+﻿	{
+	  "name": "SYSTEL",
+	  "main": "./html/программа.html",
+	  "version": "1.0.0.1",
+	  "description": "Программа моделирования МС",
+	  "window": {
+	    "title": "SYSTEL",
+		"toolbar": true,
+		"show": true,
+		"resizable": true,
+		"fullscreen": false,
+		"width": 1400,
+		"height": 700,
+        "icon": "./css/icon.png"		
+		
+	  }
+	}

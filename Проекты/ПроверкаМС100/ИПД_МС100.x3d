@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene>
+<TimeSensor DEF='таймер' cycleInterval='5'/>
+<OrientationInterpolator DEF='q1' key='0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1'
+keyValue='0 0 1 –0.78, 0 0 1 –0.6, 0 0 1 –0.2, 0 0 1 0.2, 0 0 1 0.6, 0 0 1 0.78,
+0 0 1 0.6, 0 0 1 0.2, 0 0 1 –0.2, 0 0 1 –0.6, 0 0 1 –0.78'/>
+<PositionInterpolator DEF='q2' key='0 0.3 0.6 1'
+keyValue='0 0 0.2, 0 0 0.5, 0 0 0.2, 0 0 0.4'/>
+<PositionInterpolator DEF='q3' key='0 0.3 0.6 1' keyValue='0 0 0, 0 0 0.2, 0 0 0, 0 0 0.3'/>
+<EXPORT localDEF='таймер' AS='Таймер'/> <EXPORT localDEF='q1' AS='Q1'/>
+<EXPORT localDEF='q2' AS='Q2'/> <EXPORT localDEF='q3' AS='Q3'/>
+</Scene> </X3D>

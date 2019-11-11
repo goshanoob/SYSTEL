@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+<Shape><Box size='0.256 0.16 0.16'/>
+<Appearance DEF='цвет'><Material diffuseColor='0 1 0'/></Appearance>
+</Shape>
+<Transform rotation='0 1 0 1.57' translation='0 0 –0.48'>
+<Shape><Box size='0.8 0.1 0.1'/><Appearance USE='цвет'/></Shape>
+</Transform>
+</Scene> </X3D>

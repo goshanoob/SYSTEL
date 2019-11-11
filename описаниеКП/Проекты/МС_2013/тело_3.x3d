@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D version="3.2">
+ <Scene><Background  skyColor="1 1 1"></Background>
+ <transform rotation="0 0 1 0" scale="1,1,1" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0.250,0,0" scaleorientation="0,0,0,0"><shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"><box solid="true" ccw="true" usegeocache="true" lit="true" size="0.5,0.05,0.05"></box><appearance sorttype="auto" alphaclipthreshold="0.1"><material ambientintensity="0.2" diffuseColor="0 1 0" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0" transparency="0"></material></appearance></shape></transform><transform scale="1,1,1" rotation="1 0 0 1.571" translation="0,0,0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scaleorientation="0,0,0,0"><shape render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true"><cylinder solid="true" ccw="true" usegeocache="true" lit="true" radius="0.06" height="0.1" bottom="true" top="true" subdivision="32" side="true"></cylinder><appearance sorttype="auto" alphaclipthreshold="0.1"><material transparency="0" ambientintensity="0.2" diffuseColor="0 1 0" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material></appearance></shape></transform>
+ </Scene>
+</X3D>

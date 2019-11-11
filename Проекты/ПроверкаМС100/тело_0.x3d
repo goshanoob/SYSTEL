@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+ <Transform translation='0 –0.8 0'>
+<Shape><Cylinder radius='0.08' height='0.25'/>
+<Appearance DEF='цвет'><Material diffuseColor='0 1 0'/></Appearance>
+</Shape>
+</Transform>
+<Transform translation='0 –0.4 0'>
+<Shape>
+<Cylinder radius='0.06' height='0.55'/><Appearance USE='цвет'/>
+</Shape>
+</Transform>
+</Scene> </X3D>

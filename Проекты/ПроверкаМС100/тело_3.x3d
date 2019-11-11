@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+<Shape><Box size='0.1 0.1 0.5'/>
+<Appearance><Material diffuseColor='0 1 0'/></Appearance>
+</Shape>
+</Scene> </X3D>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D version="3.2">
+ <Scene><Background  skyColor="1 1 1"></Background>
+ <transform id="тело_0" rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,-2.400,0" scale="1,1,1" scaleorientation="0,0,0,0" DEF="тело_0"> 
+     <inline url="body_0.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+    <transform translation="-0.75,0.000,0" rotation="0 0 1 0.400" id="тело_1" DEF="тело_1" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_1.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0,0" rotation="0 0 1 -0.100" id="тело_2" DEF="тело_2" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_2.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0.000,0" rotation="0 0 1 0" id="тело_3" DEF="тело_3" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_3.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline></transform><transform translation="0,0.000,0" rotation="0 0 1 0.500" id="тело_4" DEF="тело_4" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_4.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0,0" rotation="0 0 1 -0.200" id="тело_5" DEF="тело_5" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_5.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0.000,0" rotation="0 0 1 0" id="тело_6" DEF="тело_6" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_6.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline></transform><transform translation="0,0.000,0" rotation="0 0 1 0.500" id="тело_7" DEF="тело_7" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_7.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0,0" rotation="0 0 1 0" id="тело_8" DEF="тело_8" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_8.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline><transform translation="1.5,0.000,0" rotation="0 0 1 0" id="тело_9" DEF="тело_9" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0"><inline url="body_9.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline></transform></transform></transform></transform></transform></transform></transform></transform>
+ <EXPORT localDEF="тело_1" AS="тело1"/>
+ <EXPORT localDEF="тело_2" AS="тело2"/>
+ <EXPORT localDEF="тело_3" AS="тело3"/>
+ <EXPORT localDEF="тело_4" AS="тело4"/>
+ <EXPORT localDEF="тело_5" AS="тело5"/>
+ <EXPORT localDEF="тело_6" AS="тело6"/>
+ <EXPORT localDEF="тело_7" AS="тело7"/>
+ <EXPORT localDEF="тело_8" AS="тело8"/>
+ <EXPORT localDEF="тело_9" AS="тело9"/>
+
+ </Scene>
+</X3D>

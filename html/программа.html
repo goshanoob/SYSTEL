@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html><html lang="ru"><head>
+<script src="../scripts/моделирование.js"></script>
+<script src="../scripts/меню.js"></script>
+<script src="../scripts/чтениеФайла.js"></script>
+<script src="../scripts/записьФайла.js"></script>
+<script src="../scripts/записьТел.js"></script>
+<script src="../scripts/клавиши.js"></script>
+<script src="../scripts/описаниеКП.js"></script>
+<script src="../scripts/демонстрация.js"></script>
+<script src="../scripts/генерацияТП.js"></script>
+<script src="../scripts/табличноеОписание.js"></script>
+<script src="../scripts/x3dom-full.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/стиль.css" />
+</head><body>
+<input id="открытьФайл" type="file" nwworkingdir=".\Проекты"/>
+<input id="сохранитьФайл" type="file" nwsaveas='разметка.x3d'/>
+<input id="сохранитьПроект" type="file" nwdirectory/>
+<input id="сохранитьПример" type="file" nwsaveas=".\Примеры"/>
+<div id="экран" class="рамка"></div><div id="менюРедактирования">
+<div id="режимРедактирования">
+<label class="раздел">Редактирование ССК</label>
+<div>
+ <input type='button' id="вставитьССК" value='Вставить ССК в ССКБ'/><br/>
+ <label class="подраздел">Координаты начала ССК в ССКБ:</label><br/>
+ <label>X: </label><input id="координатаВставкиССКX" class="параметр" type="number" value="0.2" step="0.1"/>
+ <label> Y: </label><input id="координатаВставкиССКY" class="параметр" type="number" value="0.2" step="0.1"/>
+ <label> Z: </label><input id="координатаВставкиССКZ" class="параметр" type="number" value="0" step="0.1"/><br/>
+ <input type='button' id="копироватьУзел" value='Копировать ССК'/>
+ <input type='button' id="вставитьУзел" value='Вставить ССК'/><span id="копия" class="подписьКопии"></span><br/>
+ <input type='button' id="удалитьССК" value='Удалить ССК'/><br/>
+ <input type='button' id="переместитьССК" value='Переместить ССК относительно ССКБ'/><br/>
+ <input id="имяТела" value="тело_0"/>
+ <br/>
+</div>
+<div id="сообщенияССК"></div>
+<div id="перемещениеССК" class="меню скрытоеМеню">
+ <div>
+  <label class="подраздел">Перемещение ССК тела по оси X:</label>
+  <input id="перемещениеССКпоX" class="параметр" type="number" step="0.01" title="вещественное число, напр. 3,2"/>
+  <input id="перемещениеССКвлевоПоX" type="button" value="&#8592;"/>
+  <input id="перемещениеССКвправоПоX" type="button" value="&#8594;"/>
+ </div>
+ <div>
+  <label class="подраздел">Перемещение ССК тела по оси Y:</label>
+  <input id="перемещениеССКпоY" class="параметр" type="number" step="0.01" title="вещественное число, напр. 2,12"/>
+  <input id="перемещениеССКвнизПоY" type="button" value="&#8595;"/>
+  <input id="перемещениеССКвверхПоY" type="button" value="&#8593;"/>
+ </div>
+ <div>
+  <label class="подраздел">Перемещение ССК тела по оси Z:</label>
+  <input id="перемещениеССКпоZ" class="параметр" type="number" step="0.01" title="вещественное число, напр. -0,2"/>
+  <input id="перемещениеССКназадПоZ" type="button" value="&#10006;"/>
+  <input id="перемещениеССКвперёдПоZ" type="button" value="&bull;"/>
+ </div>
+
+</div>
+<div id="удалениеССК" class="скрытоеМеню меню">
+ <label class="подраздел">Удалить выбранную ССК вместе с несомыми телами?</label><br/>
+ <input id="удалитьССКок" type="button" value="OK"/>
+ <input id="удалитьССКотмена" type="button" value="Отмена"/>
+</div>
+<label class="раздел">Редактирование ГО</label>
+ <select id="списокГО">
+  <option>Бокс</option>
+  <option>Цилиндр</option>
+  <option>Конус</option>
+  <option>Шар</option>
+ </select>
+<div>
+ <input type='button' id="создатьГО" value='Вставить ГО в ССК'/><br/>
+ <label class="подраздел">Координаты центра ГО в ССК:</label><br/>
+ <label>X: </label><input id="координатаВставкиГОX" class="параметр" type="number" value="0.2" step="0.1"/>
+ <label> Y: </label><input id="координатаВставкиГОY" class="параметр" type="number" value="0.2" step="0.1"/>
+ <label> Z: </label><input id="координатаВставкиГОZ" class="параметр" type="number" value="0" step="0.1"/><br/>
+ <input type='button' id="копироватьОбъект" value='Копировать ГО'/>
+ <input type='button' id="вставитьОбъект" value='Вставить ГО'/><span id="копияГО" class="подписьКопии"></span><br/>
+ <input type='button' id="удалитьГО" value='Удалить ГО'/><br/>
+ <input type='button' id="изменитьГО" value='Изменить параметры ГО'/><br/>
+ <input type='button' id="переместитьГО" value='Переместить ГО относительно ССК'/><br/>
+</div>
+<div id="сообщенияГО"></div>
+<div id="изменениеБокса" class="скрытоеМеню меню">
+ <label class="подраздел">Длина бокса:</label>
+ <input id="длинаБокса" class="параметр" type="number" step="0.01" min="0"/> 
+ <input id="ползунокДлиныБокса" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/>
+ <label class="подраздел">Высота бокса:</label>
+ <input id="высотаБокса" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокВысотыБокса" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/>
+ <label class="подраздел">Ширина бокса:</label>
+ <input id="ширинаБокса" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокШириныБокса" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/>
+</div>
+<div id="изменениеЦилиндра" class="скрытоеМеню меню">
+ <label class="подраздел">Радиус цилиндра:</label>
+ <input id="радиусЦилиндра" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокРадиусаЦилиндра" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/>
+ <label class="подраздел">Высота цилиндра:</label>
+ <input id="высотаЦилиндра" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокВысотыЦилиндра" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/><br/>
+ <label class="подраздел">Сжатие и растяжение цилиндра:</label><br/>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатиеЦилиндраПоX" class="параметр" type="number" step="0.01" min="0"/>
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатиеЦилиндраПоZ" class="параметр" type="number" step="0.01" min="0"/>
+</div>
+
+<div id="изменениеКонуса" class="скрытоеМеню меню">
+ <label class="подраздел">Радиус конуса:</label>
+ <input id="радиусКонуса" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокРадиусаКонуса" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/>
+ <label class="подраздел">Высота конуса:</label>
+ <input id="высотаКонуса" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокВысотыКонуса" type="range" min="0" max="5" step="0.1" class="ползунокГО"/><br/><br/>
+ <label class="подраздел">Сжатие и растяжение конуса:</label><br/>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатиеКонусаПоX" class="параметр" type="number" step="0.01" min="0"/>
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатиеКонусаПоZ" class="параметр" type="number" step="0.01" min="0"/>
+</div>
+
+<div id="изменениеШара" class="скрытоеМеню меню">
+ <label class="подраздел">Радиус шара:</label>
+ <input id="радиусШара" class="параметр" type="number" step="0.01" min="0"/>
+ <input id="ползунокРадиусаШара" type="range" min="0" max="2" step="0.1" class="ползунокГО"/><br/><br/>
+ <label class="подраздел">Сжатие и растяжение шара:</label><br/>
+ <label class="подраздел">по оси X:</label>
+ <input id="сжатиеШараПоX" class="параметр" type="number" step="0.01" min="0"/>
+ <label class="подраздел">по оси Y:</label>
+ <input id="сжатиеШараПоY" class="параметр" type="number" step="0.01" min="0"/>
+ <label class="подраздел">по оси Z:</label>
+ <input id="сжатиеШараПоZ" class="параметр" type="number" step="0.01" min="0"/>
+</div>
+
+<div id="удалениеГО" class="скрытоеМеню меню">
+ <label class="подраздел">Удалить выбранный ГО?</label>
+ <input id="удалитьГОок" type="button" value="OK"/>
+ <input id="удалитьГОотмена" type="button" value="Отмена"/>
+</div>
+
+<div id="перемещениеГО" class="скрытоеМеню меню">
+ <div>
+  <label class="подраздел">Перемещение ГО по оси X:</label>
+  <input id="перемещениеГОпоX" class="параметр" type="number" step="0.01"/>
+  <input id="перемещениеГОвлево" type="button" value="&#8592;"/>
+  <input id="перемещениеГОвправо" type="button" value="&#8594;"/>
+ </div>
+ <div>
+  <label class="подраздел">Перемещение ГО по оси Y:</label>
+  <input id="перемещениеГОпоY" class="параметр" type="number" step="0.01"/>
+  <input id="перемещениеГОвниз" type="button" value="&#8595;"/>
+  <input id="перемещениеГОвверх" type="button" value="&#8593;"/>
+ </div>
+ <div>
+  <label class="подраздел">Перемещение ГО по оси Z:</label>
+  <input id="перемещениеГОпоZ" class="параметр" type="number" step="0.01"/>
+  <input id="перемещениеГОназад" type="button" value="&#10006;"/>
+  <input id="перемещениеГОвперёд" type="button" value="&bull;"/>
+ </div>
+ <div>
+  <label class="подраздел">Поворот ГО вокруг оси X:</label>
+  <input id="вращениеГОПоX" type="checkbox"/><br/>
+  <label class="подраздел">Поворот ГО вокруг оси Y:</label>
+  <input id="вращениеГОПоY" type="checkbox"/>
+  <input id="вращениеГО" class="параметр" type="number" step="5"/>
+  <input id="вращениеГОвлево" type="button" value="&#8634;"/>
+  <input id="вращениеГОвправо" type="button" value="&#8635;"/><br/>
+  <label class="подраздел">Поворот ГО вокруг оси Z:</label>
+  <input id="вращениеГОПоZ" type="checkbox"/><br/>
+ </div>
+</div>
+
+<div id="описаниеМодели" class="скрытоеМеню меню">
+ <label class="подраздел">Название МС:</label>
+ <input id="названиеМС" placeholder="Название"/><br/>
+ <label class="подраздел">Описание МС:</label>
+ <textarea id="описаниеМС" placeholder="Описание"></textarea><br/>
+ <input id="описаниеМСок" type="button" value="OK"/>
+ <input id="описаниеМСотмена" type="button" value="Отмена"/>
+</div>
+</div>
+
+<div id="описаниеКП" class="скрытоеМеню меню">
+ <table id="таблКП" >
+  <tr><td>Номер</td><td>Тип</td><td>Ось</td><td>Цвет</td></tr>
+  <tr><td>тела</td><td colspan="2">движения</td><td>тела</td></tr>
+ </table>
+ <div id="КП"></div>
+ <input id="описаниеКПок" type="button" value="OK"/>
+ <input id="описаниеКПотмена" type="button" value="Отмена"/>
+</div>
+<div id="положения" class="скрытоеМеню меню">
+ <div id="описаниеПоложений">
+  
+ </div>
+ <span id="предупреждениеПоложений" class="открытоеМеню">Внимание! Заполнены не все параметры.</span>
+</div>
+
+<div id="режимДемонстрации" class="скрытоеМеню меню"></div>
+
+<div id="предупрежедниеНК" class="скрытоеМеню меню">Ошибка! НК в <span id="ошибкаВСтрокеКП"></span>-й строке не удовлетворяют условию q<sub>x</sub><sup>2</sup>+q<sub>y</sub><sup>2</sup>+q<sub>z</sub><sup>2</sup>=1</div>
+
+<div id="настройкиКамеры" class="скрытоеМеню меню">
+ <label class="подраздел">Положение наблюдателя относительно АСК по оси Z:</label>
+ <input id="положениеКамеры" type="range" min="0" max="10" step="0.1" class="ползунок"/>
+</div>
+
+<div id="настройкиОсей" class="скрытоеМеню меню">
+ <label class="подраздел">Размер осей ССК тел:</label>
+ <input id="размерОсей" type="range" min="0" max="2" step="0.1" value="1" class="ползунок"/>
+ <input id="длинаОсей" class="параметр" type="number" min='0' step="0.1" value="0.1"/>
+</div>
+
+<div id="максЛинРазмер" class="скрытоеМеню меню">
+ <label class="подраздел">Максимальный линейный размер:</label><br/>
+ <input id="линейныйРазмер" min="0" step="0.1" type="number" class="параметр" value="1"/><br/>
+ <input id="линРазмерОк" type="button" value="OK"/>
+ <input id="линРазмерОтмена" type="button" value="Отмена"/>
+</div>
+
+<div id="точностьОкругления" class="скрытоеМеню меню">
+ <label class="подраздел">Точность представления линейных параметров (кол-во знаков после запятой):</label><br/>
+ <input id="количествоЗнаков" value="2" min="0" step="1" type="number" class="параметр"/><br/>
+ <input id="точностьОк" type="button" value="OK"/>
+ <input id="точностьОтмена" type="button" value="Отмена"/>
+</div>
+</div>
+
+
+<div id="информация" class="рамка"> Активна АСК</div>
+
+
+
+<div id="модельДляКопирования">
+</div>
+</body>
+</html>

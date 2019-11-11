@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version="3.2"> <Scene> <Background skyColor="1 1 1"></Background><Viewpoint position="0 0 3"></Viewpoint> 
+
+<Transform translation="0 0.4 0">  
+ <Shape> <Cylinder radius="0.01" height="0.8"></Cylinder>   
+ <Appearance> 
+ <Material diffuseColor="0 0 0"></Material> 
+ </Appearance>  
+ </Shape> 
+ </Transform> 
+ 
+ <Transform translation="0 0 0.4" rotation="1 0 0 1.57"> 
+ <Shape> <Cylinder radius="0.01" height="0.8"></Cylinder> 
+ <Appearance> <Material diffuseColor="0 0 0"></Material> </Appearance>  </Shape> 
+ </Transform>
+ 
+ <Transform translation="0.4 0 0"  rotation="0 0 1 -1.57"> 
+ <Shape> <Cylinder radius="0.01" height="0.8"></Cylinder> 
+ <Appearance> <Material diffuseColor="0 0 0"></Material>
+ </Appearance> 
+ </Shape>
+ </Transform> 
+ 
+ 
+ </Scene> </X3D>

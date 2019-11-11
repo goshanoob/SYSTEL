@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"/>  
+ <Viewpoint position="0 0 4"/>
+<Transform translation='–1 0 0' showProxyGeometry='true'>
+<Inline url='тело_0.x3d'/>
+<Transform DEF='тело_1' rotation='0 0 1 0.0'><Inline url='тело_1.x3d'/>
+<Transform DEF='тело_2' translation='0 0 0.88'><Inline url='тело_2.x3d'/>
+<Transform DEF='тело_3' translation='0 0 0.35'><Inline url='тело_3.x3d'/>
+</Transform></Transform></Transform></Transform>
+<EXPORT localDEF='тело_0' AS='тело0'/>
+<EXPORT localDEF='тело_1' AS='тело1'/>
+<EXPORT localDEF='тело_2' AS='тело2'/>
+<EXPORT localDEF='тело_3' AS='тело3'/>
+</Scene></X3D>

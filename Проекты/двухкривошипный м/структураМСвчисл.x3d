@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D version="3.2">
+ <Scene><Background  skyColor="1 1 1"></Background>
+ <viewpoint position="0 0 3" ></viewpoint>
+  <Script DEF="вычисление">
+  <field accessType='outputOnly' name='q2' type='SFRotation'/>
+  <field accessType='outputOnly' name='q3' type='SFRotation'/>
+  <![CDATA[ ecmascript:
+  var сцена = Browser.currentScene;
+  
+  function initialize(){
+	var a = c = Math.abs(сцена.getNamedNode("тело_2").translation[0]);
+	var b = d = Math.abs(сцена.getNamedNode("тело_3").translation[0]);
+    var q1 = сцена.getNamedNode("тело_1").rotation[3];
+	var угол1_1 = Math.acos((b-a*d*Math.cos(q1))/(b*Math.sqrt(a*a+d*d-2*a*d*Math.cos(q1))));
+	var угол1_2 =Math.asin(d*Math.sin(q1)/Math.sqrt(a*a+d*d-2*a*d*Math.cos(q1)));
+	var угол1;
+	if(q1<-1){
+	  угол1 = Math.PI+угол1_1+угол1_2;
+	} else {
+	  угол1 = угол1_1-угол1_2;
+	}
+	q2 = new SFRotation(0,0,1,угол1);
+	var угол2 = -q1 + Math.PI;
+	q3 = new SFRotation(0,0,1,угол2);
+  } 
+  ]]>
+ </Script>
+ 
+ 
+ <transform id="тело_0" rotation="0 0 1 0" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" DEF="тело_0">
+  <inline url="body_0.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+  <transform translation="-0.500,0.000,0" rotation="0 0 1 -0.5" id="тело_1" DEF="тело_1" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <inline url="body_1.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+   <transform translation="0.400,0.000,0" rotation="0 0 1 0.785" id="тело_2" DEF="тело_2" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+	<ROUTE fromNode='вычисление' fromField='q2' toNode='тело_2' toField='rotation'/>	
+	<inline url="body_2.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+	<transform translation="1,0.000,0" rotation="0 0 1 -2.794" id="тело_3" DEF="тело_3" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+	 <ROUTE fromNode='вычисление' fromField='q3' toNode='тело_3' toField='rotation'/>	
+	 <inline url="body_3.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+	</transform>
+   </transform>
+  </transform>
+ </transform>
+
+
+ </Scene>
+</X3D>

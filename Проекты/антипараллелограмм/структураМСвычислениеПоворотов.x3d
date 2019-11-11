@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D version="3.2">
+ <Scene><Background  skyColor="1 1 1"></Background>
+<Transform DEF="кнопка1" translation='0 1.5 0'><TouchSensor DEF='путь_1'/>
+ <Shape>
+  <Rectangle2D size='0.8 0.4'/> 
+  <Appearance DEF='отображение'>
+   <Material diffuseColor='0 1 0' />
+  </Appearance>
+ </Shape>
+</Transform> 
+
+ <Script DEF="вычисление">
+  <field accessType='outputOnly' name='q2' type='SFRotation'/>
+  <field accessType='outputOnly' name='q3' type='SFRotation'/>
+  <![CDATA[ ecmascript:
+  var сцена = Browser.currentScene;
+  
+  function initialize(){
+    var q1 = сцена.getNamedNode("тело_1").rotation[3];
+	Browser.println(q1);
+	q2 = new SFRotation(0,0,1,-q1);
+	q3 = new SFRotation(0,0,1,q1-Math.PI);
+	Browser.println(q2);
+	Browser.println(q3);
+  } 
+  ]]>
+ </Script>
+ 
+ <transform id="тело_0" rotation="0 0 1 0.000" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0" DEF="тело_0"> 
+  <inline url="body_0.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+  <transform translation="-1.600,0,0" rotation="0 0 1 0.500" id="тело_1" DEF="тело_1" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+   <inline url="body_1.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+   <transform translation="1.600,0,0" rotation="0 0 1 1.100" id="тело_2" DEF="тело_2" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+    <ROUTE fromNode='вычисление' fromField='q2' toNode='тело_2' toField='rotation'/>	
+	<inline url="body_2.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+	<transform translation="1.600,0,0" rotation="0 0 1 1.000" id="тело_3" DEF="тело_3" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+	 <ROUTE fromNode='вычисление' fromField='q3' toNode='тело_3' toField='rotation'/>
+	 <inline url="body_3.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""></inline>
+	</transform>
+   </transform>
+  </transform>
+ </transform>
+
+	
+
+
+<ROUTE fromField='touchTime' fromNode='путь_1' toField='изменить_q1' toNode='вычисление'/>
+
+
+
+
+ </Scene>
+</X3D>

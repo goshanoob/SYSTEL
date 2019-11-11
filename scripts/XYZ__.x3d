@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<X3D version="3.2"> 
+<Scene>
+ <Transform translation="0.1 0 0"> 
+ <Shape> <Box size="0.2 0.04 0.04"></Box> 
+ <Appearance> <Material diffuseColor="1 0 0"></Material> 
+ </Appearance>  
+ </Shape> 
+ </Transform> 
+ <Transform translation="0 0.1 0">  
+ <Shape> <Cylinder radius="0.03" height="0.2"></Cylinder>   
+ <Appearance> <Material diffuseColor="0 1 0"></Material> 
+ </Appearance>  
+ </Shape> 
+ </Transform> 
+ <Transform translation="0 0 0.15" rotation="1 0 0 1.57">  
+ <Shape> <Cone bottomRadius="0.03" height="0.3"></Cone>  
+ <Appearance> <Material diffuseColor="0 0 1"></Material> 
+ </Appearance>  
+ </Shape>
+ </Transform> 
+</Scene> 
+</X3D>
